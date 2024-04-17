@@ -1,0 +1,39 @@
+C:\Users\HP\AppData\Local\Temporary Projects\DentalClinic\bin\Debug\DentalClinic.exe.config
+E:\Visual Baisc\DentalClinic\DentalClinic\bin\Debug\DentalClinic.exe.config
+E:\Visual Baisc\DentalClinic\DentalClinic\bin\Debug\DentalClinic.exe
+E:\Visual Baisc\DentalClinic\DentalClinic\bin\Debug\DentalClinic.pdb
+E:\Visual Baisc\DentalClinic\DentalClinic\bin\Debug\DentalClinic.xml
+E:\Visual Baisc\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Login.resources
+E:\Visual Baisc\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Resources.resources
+E:\Visual Baisc\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Patient.resources
+E:\Visual Baisc\DentalClinic\DentalClinic\obj\Debug\DentalClinic.vbproj.GenerateResource.Cache
+E:\Visual Baisc\DentalClinic\DentalClinic\obj\Debug\DentalClinic.exe
+E:\Visual Baisc\DentalClinic\DentalClinic\obj\Debug\DentalClinic.xml
+E:\Visual Baisc\DentalClinic\DentalClinic\obj\Debug\DentalClinic.pdb
+E:\Visual Baisc\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Appoinment.resources
+E:\Visual Baisc\DentalClinic\DentalClinic\obj\Debug\DentalClinic.vbprojResolveAssemblyReference.cache
+E:\Visual Baisc\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Starttup.resources
+E:\Visual Baisc\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Prescription.resources
+E:\Visual Baisc\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Treatment.resources
+E:\Visual Baisc\DentalClinic\DentalClinic\bin\Debug\DentalClinic.mdf
+E:\Visual Baisc\DentalClinic\DentalClinic\bin\Debug\DentalClinic_log.ldf
+E:\Visual Baisc\DentalClinic\DentalClinic\bin\Debug\Guna.UI2.dll
+E:\Visual Baisc\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Dashboard.resources
+E:\Visual Baisc\DentalClinic\DentalClinic\bin\Debug\DentalClinic.exe.manifest
+E:\Visual Baisc\DentalClinic\DentalClinic\bin\Debug\DentalClinic.application
+E:\Visual Baisc\DentalClinic\DentalClinic\obj\Debug\DentalClinic.exe.manifest
+E:\Visual Baisc\DentalClinic\DentalClinic\obj\Debug\DentalClinic.application
+C:\Users\HP\OneDrive\Desktop\DentalClinic\DentalClinic\bin\Debug\DentalClinic.exe.config
+C:\Users\HP\OneDrive\Desktop\DentalClinic\DentalClinic\obj\Debug\DentalClinic.exe
+C:\Users\HP\OneDrive\Desktop\DentalClinic\DentalClinic\obj\Debug\DentalClinic.xml
+C:\Users\HP\OneDrive\Desktop\DentalClinic\DentalClinic\obj\Debug\DentalClinic.pdb
+C:\Users\HP\OneDrive\Desktop\DentalClinic\DentalClinic\obj\Debug\DentalClinic.vbprojResolveAssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Appoinment.resources
+C:\Users\HP\OneDrive\Desktop\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Dashboard.resources
+C:\Users\HP\OneDrive\Desktop\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Starttup.resources
+C:\Users\HP\OneDrive\Desktop\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Login.resources
+C:\Users\HP\OneDrive\Desktop\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Resources.resources
+C:\Users\HP\OneDrive\Desktop\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Patient.resources
+C:\Users\HP\OneDrive\Desktop\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Prescription.resources
+C:\Users\HP\OneDrive\Desktop\DentalClinic\DentalClinic\obj\Debug\DentalClinic.Treatment.resources
+C:\Users\HP\OneDrive\Desktop\DentalClinic\DentalClinic\obj\Debug\DentalClinic.vbproj.GenerateResource.Cache

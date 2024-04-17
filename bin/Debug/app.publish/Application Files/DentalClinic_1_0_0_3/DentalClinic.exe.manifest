@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DentalClinic.exe" version="1.0.0.3" publicKeyToken="dd1ae8ff03ef6538" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DentalClinic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DentalClinic.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.SqlServerCe" version="4.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DentalClinic.exe" size="7200768">
+      <assemblyIdentity name="DentalClinic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xf+7fM3aLm7+fxV+nUBpR+EkaT/IkLUcJi0net9Tg+Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="1510056">
+      <assemblyIdentity name="Guna.UI2" version="2.0.0.1" publicKeyToken="AD275B4BE6718D4B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v3KTmSKvos0XBx9RcLSoLQW86x/DPOKc37xo27l/Anc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DentalClinic.exe.config" size="762">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9wpQxrjJFZXT8+w/j4rtT0peX14VMdofy5Kz9Iq8Qk4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DentalClinic.mdf" size="3211264" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HeKCc0uNDPXWdy2r0A//cAGN4txtjAhtN1r/kWu4sa0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DentalClinic_log.ldf" size="851968" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AZH6mIkSYqyMVDk26uCOtklwYrUbLTpuFv07j02pTfc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NAVOD\HP" issuerKeyHash="2d0b22cd7e67fd632c2187d67e24aa41352d4264" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nyBvBkQdVwT9Q23NdDevO+Z/FF3de6hmznVjLJoPv3Y=</DigestValue></Reference></SignedInfo><SignatureValue>LW60y9RMXl6nyIAw7D9co5GD+vQ5mtYkpRrzqi0HY9qqA7EvTlsgvj2Ur8YrGQB4F9MyTlA/lXCqDFo/+KEAusPuoUHCW9zt7PWKX5jDbLAn0cUsZxnzH9cBzBkqqUHiAVAtcE+kY4juflPprk/LoGY3kHUhooM2Q1bIdKbAmq4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wHB2v5rZmdDSI8Cm6H8gdJPnq7kMhMvix2Mu3FQI2XhbzPROfv6iCtQmtPvn7+Adf8d5y9P0sXicpZonFqpxJ2v9p4ubrPJcb3PbgeStnmkuLPQbG5iJpMhAPKlKGwmylf89/lxOelmLJhQdoLhc8Ym+xUg0Y2xc4CgCqHI4AQk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="76bf0f9a2c6375ce66a87bdd5d147fe63baf3774cd6d43fd04571d44066f209f" Description="" Url=""><as:assemblyIdentity name="DentalClinic.exe" version="1.0.0.3" publicKeyToken="dd1ae8ff03ef6538" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NAVOD\HP</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1U7VFsxO+E9/I6lQIAUp7EqhDUNnaW+QTharz4E7ywo=</DigestValue></Reference></SignedInfo><SignatureValue>pkawQ/xt1iCpi+WRrTdVNmDNxpS61/9886y35hV+ptzg0xRvPyo2tyg3g8a/6KJ2GtTB/Ag3qoTXnWu+oY9w0gSN4Nx2mdLU+9r16Of7KSLX2axVWzlu+6aXW2wz93mVjTnBU/vtdvvzXMAdWYzmWw13S8duyscC8vFCgAJzJCI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wHB2v5rZmdDSI8Cm6H8gdJPnq7kMhMvix2Mu3FQI2XhbzPROfv6iCtQmtPvn7+Adf8d5y9P0sXicpZonFqpxJ2v9p4ubrPJcb3PbgeStnmkuLPQbG5iJpMhAPKlKGwmylf89/lxOelmLJhQdoLhc8Ym+xUg0Y2xc4CgCqHI4AQk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASKgAwIBAgIQJRk9NulcVK5KLTEri899nDANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDHhAATgBBAFYATwBEAFwASABQMB4XDTIzMTIxMTEwMDAzOFoXDTI0MTIxMDE2MDAzOFowGzEZMBcGA1UEAx4QAE4AQQBWAE8ARABcAEgAUDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwHB2v5rZmdDSI8Cm6H8gdJPnq7kMhMvix2Mu3FQI2XhbzPROfv6iCtQmtPvn7+Adf8d5y9P0sXicpZonFqpxJ2v9p4ubrPJcb3PbgeStnmkuLPQbG5iJpMhAPKlKGwmylf89/lxOelmLJhQdoLhc8Ym+xUg0Y2xc4CgCqHI4AQkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQB40nsmwwctkwr8SE3aJOdEQbkfX6QGFP8gFc8WTgfXLXbUPE+dt3AKY/FP3HwL3ueqhJwhnvFmCPjFVEtTXZRDjRNvLpC1Q6rl/opNurjhaM7vTH2CYFvBMZ3uTdLDt0BufKnfvmWJjgI0k2hlV0X7xRBkblJgpTFH01Ak65C2wg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
